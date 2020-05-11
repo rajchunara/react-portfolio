@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <HomeComponent/>
+      <div style={{height:100}}>Hello</div>
     </div>
   );
 }
