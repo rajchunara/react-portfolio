@@ -21,7 +21,7 @@ export default function HomeComponent() {
                     Asperiores neque consequuntur vel consectetur sit obcaecati 
                     iure natus odit? Sequi, fugit!
                 </p>
-                <a href="#" className='projectsBtn'>See Projects</a>
+                <button className='projectsBtn'>See Projects</button>
             </div>
         </div>
     )
