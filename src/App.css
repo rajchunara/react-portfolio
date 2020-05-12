@@ -2,5 +2,56 @@
   box-sizing: border-box;
   margin: 0;
   padding:0;
-  text-align: center;
+}
+
+.navbar {
+  min-height: 8vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+
+}
+
+.logo{
+  color:rgb(92, 48, 48);
+  text-transform:uppercase;
+  letter-spacing:5px;
+  font-size:20px;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+
+ul{
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ li{
+  color: rgb(221, 235, 253);
+  position: relative;
+  list-style: none;
+  font-size: 17px;
+}
+
+.navbar a{
+  color: rgb(201, 225, 248);
+  text-decoration:none;
+  letter-spacing:3px;
+  font-weight:bold;
+  font-size:14px;
+}
+
+a:link{
+   text-decoration: none;
+}
+
+
+a:hover{
+  cursor: pointer;
 }

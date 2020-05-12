@@ -4,8 +4,11 @@
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     background-color: rgba(25, 50, 70, 0.8);
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     color: white;
+    width: 100%;
 }
 
 .showcase:before{

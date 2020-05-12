@@ -5,8 +5,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="navbar">
+          <ul>
+            <li><a href="">Home</a>  </li>
+            <li><a href="">About</a> </li>
+            <li><a href="">Projects</a>  </li>
+          </ul>
+        
+        
+      </div>
       <HomeComponent/>
-      <div style={{height:100}}>Hello</div>
     </div>
   );
 }
