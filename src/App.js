@@ -10,10 +10,9 @@ import './App.css';
 function App() {
 
   return (
-    <Router >
-      <div className="App">
-      <NavbarComponent/>
-        
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className="App">   
+      <NavbarComponent/>        
         <Switch>
           <Route path='/' exact component={HomeComponent}/>
           <Route path='/about'  component={AboutComponent}/>
