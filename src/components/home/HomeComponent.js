@@ -1,28 +1,39 @@
 import React from 'react'
+import NavbarComponent from '../navbar/NavbarComponent';
 import Typewriter from 'typewriter-effect';
 import './home.css';
+import AboutComponent from '../about/AboutComponent';
 
-export default function HomeComponent() {
+export default function HomeComponent(props) {
+
+    const {history} = props
+    
     return (
-        <div className='showcase'>
-            <div className='container showcaseInner'>
-                <h1>Hello, I am Raj Chunara</h1>
-                <h1>
-                    <Typewriter
-                        options={{
-                            strings: ['Developer', 'Designer', 'Creator'],
-                            autoStart: true,
-                            loop: true,
-                          }}
-                    />
-                </h1>
-                <p className="description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Asperiores neque consequuntur vel consectetur sit obcaecati 
-                    iure natus odit? Sequi, fugit!
-                </p>
-                <button className='projectsBtn'>See Projects</button>
-            </div>
-        </div>
+            
+            <div className='showcase'>
+                <div className='container showcaseInner'>
+                    <h1>Hello, I am Raj Chunara</h1>
+                    <h1>
+                        <Typewriter
+                            options={{
+                                strings: ['Developer', 'Designer', 'Creator'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </h1>
+                    <p className="description">
+                        I am Toronto based software developer, who likes creating beautiful 
+                        user interfaces and scalable applications
+                    </p>
+                    <div className="home-btn-container">
+                        <button className='projectsBtn' onClick={()=> history.push('/projects')}>
+                            <strong>See Projects </strong>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>      
+
     )
 }

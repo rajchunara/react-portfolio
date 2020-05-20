@@ -1,0 +1,26 @@
+
+
+.project-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}
+
+
+@media(max-width:800px){
+    .project-container{
+        grid-template-columns: repeat(auto-fill, 500px);
+    }
+}
+
+@media(max-width:420px){
+
+    .project-container{
+        grid-template-columns: repeat(auto-fill, 350px);
+        justify-content: center;
+
+    }
+}

@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
 
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-container{
+    position: relative;
+}
+
 .showcase{
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
-    background-color: rgba(25, 50, 70, 0.8);
+    background-color: rgba(48, 83, 117, 0.8);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -22,9 +31,7 @@
     z-index: -1;
 }
 
-.container{
-    
-}
+
 
 .showcase .showcaseInner{
     display: flex;
@@ -36,21 +43,34 @@
 }
 
 .showcase h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     margin: 0px;
 }
 
-.showcase p{
-    font-size: 1.4rem;
-}
+
 
 .description{
-    width: 50%;
+    width: 60%;
+    font-size: 17px;
+    font-weight: 550;
+    color: rgb(237, 248, 253);
 }
 
 .projectsBtn{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(239, 247, 255);
+    color: rgb(83, 111, 138);
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
 
+.projectsBtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
 }
 
 @media(max-width:780px){

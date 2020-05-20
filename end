@@ -1,0 +1,35 @@
+[33mcommit ac57b81725633616da880423c09060612589b02a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: rajchunara <rajchunara777@gmail.com>
+Date:   Tue May 12 10:24:08 2020 -0400
+
+    adjusted landing-page
+
+[33mcommit 75de9e25813f59b60c252660b58b30d7c7546f02[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: rajchunara <rajchunara777@gmail.com>
+Date:   Mon May 11 09:52:36 2020 -0400
+
+    changed a tag to button
+
+[33mcommit bf6a838d5ea623680fa7e01ce41444a976b33c0a[m
+Author: rajchunara <rajchunara777@gmail.com>
+Date:   Mon May 11 09:48:20 2020 -0400
+
+    Added github workflow for CI/CD
+
+[33mcommit 9018fb06edf9cd9d226066f5638dc8eb1db0ab8d[m
+Author: rajchunara <rajchunara777@gmail.com>
+Date:   Sun May 10 12:55:33 2020 -0400
+
+    Changed background image path
+
+[33mcommit f81d148d4b85434d3f7541e20ad50e991bc9bee6[m
+Author: rajchunara <rajchunara777@gmail.com>
+Date:   Sun May 10 12:19:23 2020 -0400
+
+    Initial commit
+
+[33mcommit e02e1364a2c05f356097665c6b9af8a802a77d5a[m
+Author: rajchunara <rajchunara777@gmail.com>
+Date:   Thu May 7 14:14:48 2020 -0400
+
+    Initialize project using Create React App
