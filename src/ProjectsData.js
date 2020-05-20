@@ -101,17 +101,17 @@ export const Projects =[
     }
 ]
 
-var projectItem={
-    id:0,
-    title:'',
-    imageUrl:'',
-    accessButtons:{
-        codeUrl:'',
-        siteUrl:''
-    },
-    showOnSite:true,
-    tags:[]
-}
+// var projectItem={
+//     id:0,
+//     title:'',
+//     imageUrl:'',
+//     accessButtons:{
+//         codeUrl:'',
+//         siteUrl:''
+//     },
+//     showOnSite:true,
+//     tags:[]
+// }
 
 
 // https://github.com/rajchunara/parallexwebsite

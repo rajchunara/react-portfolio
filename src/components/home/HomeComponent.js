@@ -1,8 +1,6 @@
 import React from 'react'
-import NavbarComponent from '../navbar/NavbarComponent';
 import Typewriter from 'typewriter-effect';
 import './home.css';
-import AboutComponent from '../about/AboutComponent';
 
 export default function HomeComponent(props) {
 

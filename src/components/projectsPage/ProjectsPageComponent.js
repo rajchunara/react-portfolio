@@ -4,19 +4,13 @@ import './projectPage.css';
 import ProjectItemComponent from '../projectItem/ProjectItemComponent';
 
 export default function ProjectsPageComponent() {
-    let imgSrc = '/assets/Images/Acme-Website.png';
-    console.log(Projects);
 
-    let projectItems = Projects.map(project => {
-        if(project.showOnSite){
+    let projectItems = Projects
+                        .filter(project => project.showOnSite)
+                        .map(project => {
             return (
                 <ProjectItemComponent project={project}/>
-            )
-        }
-
-        return;
-        
-
+            );
     })
 
 

@@ -5,7 +5,6 @@ import AboutComponent from './components/about/AboutComponent';
 import NavbarComponent from './components/navbar/NavbarComponent';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import ContactComponent from './components/contact/ContactComponent';
 
 
 function App() {
