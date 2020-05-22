@@ -3,9 +3,14 @@ import {NavLink, useLocation} from 'react-router-dom';
 import './navbar.css';
 
 export default function NavbarComponent(props) {
+
+    //Get current location
     const cntx = useLocation();
+
+    //Assign className based on location
     const navlinkClass = cntx.pathname === '/' ? 'navlink-home' : 'navlink-other-pages'
-    console.log(cntx);
+
+
     return (
         <div className="navbar">
           <ul className={`nav-links ${navlinkClass}`}>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 import './home.css';
 
@@ -8,8 +8,8 @@ export default function HomeComponent(props) {
     
     return (
             
-            <div className='showcase'>
-                <div className='container showcaseInner'>
+            <div className='showcase' >
+                <div className='container showcaseInner fade-in' >
                     <h1>Hello, I am Raj Chunara</h1>
                     <h1>
                         <Typewriter

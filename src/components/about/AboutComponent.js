@@ -1,18 +1,28 @@
 import React from 'react'
 import './about.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import SkillsComponent from '../skills/SkillsComponent';
 import ContactComponent from '../contact/ContactComponent';
+import { useEffect, useState } from 'react';
 
 export default function AboutComponent() {
+
+    const [fade, setFade] = useState('');
+    
+
+    useEffect(()=>{
+        setFade('fade-in')
+    },[])
     
     return (
         <div className="about">
-            <div className="about-container">
-                <div className="about-center">
-                    <div className="about-text">
+            <div className="about-container  fade-in">
+                <div className={`about-center`}>
+                    <div className="about-text" >
                         ABOUT
                     </div>
-                    <div className="about-info-container">
+                    <div className='about-info-container'>
                         <p className="about-info-1">
                             I enjoy the process of converting complex problems
                             into simple yet elegant real world applications.

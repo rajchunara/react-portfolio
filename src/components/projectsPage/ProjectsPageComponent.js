@@ -9,13 +9,13 @@ export default function ProjectsPageComponent() {
                         .filter(project => project.showOnSite)
                         .map(project => {
             return (
-                <ProjectItemComponent project={project}/>
+                <ProjectItemComponent project={project} key={project.id}/>
             );
     })
 
 
     return (
-            <div className="project-container">
+            <div className="project-container fade-in-project">
                 
                 {projectItems}
                 

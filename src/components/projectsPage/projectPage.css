@@ -9,6 +9,23 @@
     justify-content: center;
 }
 
+.fade-in-project {
+	opacity: 1;
+	animation-name: fadeInOpacityProjects;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 0.4s;
+}
+
+@keyframes fadeInOpacityProjects {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 @media(max-width:800px){
     .project-container{

@@ -49,8 +49,8 @@ export const Projects =[
         title:'React-Redux-Posts-App',
         imageUrl:'/assets/Images/Project-Images/react-redux-post-app.png',
         accessButtons:{
-            codeUrl:'',
-            siteUrl:''
+            codeUrl:'https://github.com/rajchunara/react-redux-posts-app',
+            siteUrl:'https://rajchunara.github.io/react-redux-posts-app/'
         },
         showOnSite:true,
         tags:[]

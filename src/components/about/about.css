@@ -14,7 +14,7 @@
 .about-center{
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 500px;
     width: 80%;
 }
 
@@ -82,3 +82,20 @@ transform: rotate(-7.5deg);
     height: 100px;
 }
 
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.4s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
