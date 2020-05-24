@@ -61,6 +61,22 @@
     margin: 0px;
 }
 
+@media(max-width:400px){
+
+    .contact-container{
+        height: 300px;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+
+    .contact-btn{
+        margin-top: 10px;
+    }
+}
+
 
 
 

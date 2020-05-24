@@ -7,9 +7,6 @@
     position: relative;
     z-index: 2;  
   }
-
-
-
   
   /* .logo{
     color:rgb(92, 48, 48);
@@ -34,10 +31,7 @@
     position: relative;
     list-style: none;
     font-size: 17px;
-  }
-
-  
-
+  } 
   
   
   .navlink-home a{
@@ -79,18 +73,139 @@
      text-decoration: none;
   }
 
-@media(max-width:780px){
-  .navbar{
-    display: flex;
-    justify-content: space-evenly;
+  .burger{
+    margin-right: 50px;
   }
+
+  .burger div{
+    width: 25px;
+    height: 3px;
+    margin:5px;
+    transition: all 0.3 ease;
+  }
+
+ 
+
+
+  .burger-home{
+    background-color: white;
+  }
+
+  .burger-other-pages{
+    background-color: #265088;
+  }
+
+
+
+@media (min-width:780px){
+  .burger{
+    display: none;
+  }
+}
+
+@media(max-width:780px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .nav-links{
+    position: absolute;
+    right: 0px;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #274664;
+    width: 50%;
+    transition: transform 0.5s ease-in;
+  }
+
+  .navlink-home .active{      
+    border-bottom: none;
+  }
+
+  .navlink-other-pages .active{      
+    border-bottom: none;
+  }
+
+  .nav-links li{
+    text-align: center;
+    opacity: 0;
+  }
+
+  .nav-links {
+    padding-left: 0px;
+  }
+
+  .active{
+    border: none;
+  }
+
+  .navlink-home li:hover{
+    color: rgb(65, 115, 180);
+  }
+  .navlink-other-pages li:hover{
+    color: rgb(65, 115, 180);
+  }
+
+
+
+  .burger{
+    cursor: pointer;
+  }
+
+  .nav-links{
+    transform: translateX(100%);
+  }
+
+  .nav-active{
+    transform: translateX(0);    
+  }
+
+  .nav-active li{
+    color: white;
+    animation-name: navLinkFrame;
+    animation-duration: 0.5s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+  }
+
+
+
+  @keyframes navLinkFrame {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  
+  .burger-active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-active .line2{
+    opacity: 0;
+  }
+
+  .burger-active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+
+
+
 }
   
 @media(max-width:600px){
-  .navbar{
+  /* .navbar{
     display: flex;
     justify-content: space-evenly;
-  }
+  } */
 }
   
   
