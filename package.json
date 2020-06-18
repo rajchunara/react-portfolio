@@ -12,7 +12,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "typewriter-effect": "^2.13.1"
+    "typewriter-effect": "^2.13.1",
+    "vanilla-smoothie": "^2.2.4"
   },
   "homepage": "https://rajchunara.github.io/react-portfolio",
   "scripts": {

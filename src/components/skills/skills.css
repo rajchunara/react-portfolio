@@ -1,158 +1,154 @@
-.skills-container{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
+.skills-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 230px;
+  line-height: 169px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #7d9c6f;
+
+  opacity: 0.7;
+  transform: rotate(-7.5deg);
+}
+
+.skills-content {
+  width: 500px;
+  margin-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: stretch;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.node {
+  width: 150px;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.react {
+  width: 150px;
+  height: 100px;
+  color: #60dbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.react h2 {
+  margin: 0px;
+}
+
+.center-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.center-bar img {
+  width: 350px;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.angular {
+  width: 150px;
+  height: 100px;
+  color: #c3002f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redux {
+  width: 130px;
+  height: 90px;
+  color: #764abc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1124px) {
+  .skills-title {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 780px) {
+  .skills-container {
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    
- }
- 
- .skills-title{
-     font-family: Roboto;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 230px;
-     line-height: 169px;
-     display: flex;
-     align-items: center;
-     text-align: center;
- 
-     color: #7D9C6F;
- 
-     opacity: 0.7;
-     transform: rotate(-7.5deg);
- }
- 
- .skills-content{
-     width: 500px;
-     align-items: stretch;
-     height: 500px;
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     background-color: white;
-     opacity: 0.7;
- }
- 
- .top-bar{
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
- }
- 
- .node{
-     width: 150px;
-     height: 100px;
- }
- 
- img{
-     width: 100%;
-     height: 100%;
- }
- 
- .react{
-     width: 150px;
-     height: 100px;
-     color: #60DBFB;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
- 
- .react h2{
-     margin: 0px;
- }
- 
- .center-bar{
-     width: 100%;
-     height: 100px;
-     display: flex;
-     justify-content: center;
-     align-content: center;
- }
- 
- .center-bar img{
-     width: 350px;
- }
- 
- .bottom-bar{
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
- }
- 
- .angular{
-     width: 150px;
-     height: 100px;
-     color: #C3002F;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
- 
- .redux{
-     width: 130px;
-     height: 90px;
-     color: #764ABC;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
+    height: 600px;
+  }
 
- @media(max-width:1124px){
-    .skills-title{
-        font-size: 150px;
-    }
+  .skills-title {
+    font-size: 20px;
+    line-height: 9px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7d9c6f;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
 }
 
- @media(max-width:780px){
-     .skills-container{
-         margin-top: 20px;
-         flex-direction: column;
-         justify-content: space-around;
-         align-items: center;
-         height: 600px;
-     }
+@media (max-width: 400px) {
+  .skills-content {
+    width: 300px;
+  }
 
-     .skills-title{
-        font-size: 20px;
-        line-height: 9px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #7D9C6F;    
-        opacity: 1;
-        transform: rotate(0deg);
-    }
+  .top-bar img {
+    width: 100px;
+    height: 80px;
+  }
 
+  .center-bar img {
+    width: 270px;
+    height: 120px;
+  }
 
-
- }
-
- @media(max-width:400px){
-
-    .skills-content{
-        width: 300px;
-    }
-
-    .top-bar img{
-        width: 100px;
-        height: 80px;
-    }
-
-    .center-bar img{
-        width: 270px;
-        height: 120px;
-    }
-
-    .bottom-bar img{
-        width: 100px;
-        height: 80px;
-    }
-     
+  .bottom-bar img {
+    width: 100px;
+    height: 80px;
+  }
 }
- 

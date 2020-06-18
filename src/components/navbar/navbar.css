@@ -1,14 +1,13 @@
-
 .navbar {
-    min-height: 8vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    z-index: 2;  
-  }
-  
-  /* .logo{
+  min-height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* .logo{
     color:rgb(92, 48, 48);
     text-transform:uppercase;
     letter-spacing:5px;
@@ -18,97 +17,89 @@
   .logo:hover{
     cursor: pointer;
   } */
-  
-  
-  .nav-links{
-    width: 40%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-   .nav-links li{
-    padding: 10px;
-    position: relative;
-    list-style: none;
-    font-size: 17px;
-  } 
-  
-  
-  .navlink-home a{
-    color: rgb(221, 235, 253);
-    text-decoration:none;
-    letter-spacing:3px;
-    font-weight:bold;
-    font-size:14px;
-  }
 
-  .navlink-home .active{      
-    border-bottom: 2px solid white;
-  }
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
 
-  .navlink-home li:hover{
-    cursor: pointer;
-    color: white;
-  }
+.nav-links li {
+  padding: 10px;
+  position: relative;
+  list-style: none;
+  font-size: 17px;
+}
 
-  .navlink-other-pages a{
-    color: rgb(65, 116, 182);
-    text-decoration:none;
-    letter-spacing:3px;
-    font-weight:bold;
-    font-size:14px;
-  }
+.navlink-home a {
+  color: rgb(221, 235, 253);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 17px;
+}
 
-  .navlink-other-pages .active{      
-    border-bottom: 2px solid rgb(65, 116, 182);
-  }
+.navlink-home .active {
+  border-bottom: 2px solid white;
+}
 
-  .navlink-other-pages li:hover{
-    cursor: pointer;
-    color: rgb(38, 80, 136);
+.navlink-home li:hover {
+  cursor: pointer;
+  color: white;
+}
 
-  }
-  
-  a:link{
-     text-decoration: none;
-  }
+.navlink-other-pages a {
+  color: rgb(65, 116, 182);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
 
-  .burger{
-    margin-right: 50px;
-  }
+.navlink-other-pages .active {
+  border-bottom: 2px solid rgb(65, 116, 182);
+}
 
-  .burger div{
-    width: 25px;
-    height: 3px;
-    margin:5px;
-    transition: all 0.3 ease;
-  }
+.navlink-other-pages li:hover {
+  cursor: pointer;
+  color: rgb(38, 80, 136);
+}
 
- 
+a:link {
+  text-decoration: none;
+}
 
+.burger {
+  margin-right: 50px;
+}
 
-  .burger-home{
-    background-color: white;
-  }
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.3 ease;
+}
 
-  .burger-other-pages{
-    background-color: #265088;
-  }
+.burger-home {
+  background-color: white;
+}
 
+.burger-other-pages {
+  background-color: #265088;
+}
 
-
-@media (min-width:780px){
-  .burger{
+@media (min-width: 780px) {
+  .burger {
     display: none;
   }
 }
 
-@media(max-width:780px){
-  body{
+@media (max-width: 780px) {
+  body {
     overflow-x: hidden;
   }
 
-  .nav-links{
+  .nav-links {
     position: absolute;
     right: 0px;
     top: 8vh;
@@ -120,15 +111,15 @@
     transition: transform 0.5s ease-in;
   }
 
-  .navlink-home .active{      
+  .navlink-home .active {
     border-bottom: none;
   }
 
-  .navlink-other-pages .active{      
+  .navlink-other-pages .active {
     border-bottom: none;
   }
 
-  .nav-links li{
+  .nav-links li {
     text-align: center;
     opacity: 0;
   }
@@ -137,32 +128,30 @@
     padding-left: 0px;
   }
 
-  .active{
+  .active {
     border: none;
   }
 
-  .navlink-home li:hover{
+  .navlink-home li:hover {
     color: rgb(65, 115, 180);
   }
-  .navlink-other-pages li:hover{
+  .navlink-other-pages li:hover {
     color: rgb(65, 115, 180);
   }
 
-
-
-  .burger{
+  .burger {
     cursor: pointer;
   }
 
-  .nav-links{
+  .nav-links {
     transform: translateX(100%);
   }
 
-  .nav-active{
-    transform: translateX(0);    
+  .nav-active {
+    transform: translateX(0);
   }
 
-  .nav-active li{
+  .nav-active li {
     color: white;
     animation-name: navLinkFrame;
     animation-duration: 0.5s;
@@ -170,42 +159,33 @@
     animation-fill-mode: forwards;
   }
 
-
-
   @keyframes navLinkFrame {
-    from{
+    from {
       opacity: 0;
       transform: translateX(50px);
     }
-    to{
+    to {
       opacity: 1;
       transform: translateX(0px);
     }
   }
 
-  
   .burger-active .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
 
-  .burger-active .line2{
+  .burger-active .line2 {
     opacity: 0;
   }
 
   .burger-active .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
   }
-
-
-
-
 }
-  
-@media(max-width:600px){
+
+@media (max-width: 600px) {
   /* .navbar{
     display: flex;
     justify-content: space-evenly;
   } */
 }
-  
-  
