@@ -1,11 +1,13 @@
 import React from "react";
 import "./projectItem.css";
 
-export default function ProjectItemComponent({ project }) {
+export default function ProjectItemComponent({ project, animationDelay }) {
   return (
     <div
       className="project-item"
       key={project.id}
+      data-aos="zoom-in"
+      data-aos-delay={animationDelay}
       style={{
         background: `url(${
           process.env.PUBLIC_URL + project.imageUrl

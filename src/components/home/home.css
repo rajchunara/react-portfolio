@@ -59,7 +59,7 @@
   height: 30px;
   width: 120px;
   background-color: rgb(239, 247, 255);
-  color: rgb(83, 111, 138);
+
   border: none;
   border-radius: 15px;
   font-size: 15px;
@@ -69,6 +69,11 @@
 .projectsBtn:hover {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
+}
+
+.home-btn-container > a {
+  text-decoration: none;
+  color: rgb(83, 111, 138);
 }
 
 @media (max-width: 780px) {

@@ -22,14 +22,14 @@
 .about-text {
   margin-top: 50px;
   position: absolute;
-  left: 550px;
+  left: 750px;
   width: 1235px;
   height: 300px;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 270px;
+  font-size: 200px;
   line-height: 169px;
   display: flex;
   align-items: center;
@@ -43,6 +43,7 @@
 
 .about-info-container {
   position: relative;
+  margin-left: 170px;
   width: 500px;
   height: 500px;
   display: flex;

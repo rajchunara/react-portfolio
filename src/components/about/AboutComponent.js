@@ -8,7 +8,12 @@ export default function AboutComponent() {
       <div className="about-container  fade-in">
         <div className={`about-center`}>
           <div className="about-text">ABOUT</div>
-          <div className="about-info-container">
+          <div
+            className="about-info-container"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-mirror="true"
+          >
             <p className="about-info-1">
               I enjoy the process of converting complex problems into simple yet
               elegant real world applications. In addition, I gained experience

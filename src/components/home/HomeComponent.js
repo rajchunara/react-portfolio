@@ -6,7 +6,7 @@ import ProjectPageComponent from "../projectsPage/ProjectsPageComponent";
 import ContactComponent from "../contact/ContactComponent";
 
 export default function HomeComponent(props) {
-  const { history } = props;
+  // const { history } = props;
 
   return (
     <div id="homeCmp" className="home">
@@ -38,12 +38,14 @@ export default function HomeComponent(props) {
             user interfaces and scalable applications
           </p>
           <div className="home-btn-container">
-            <button
-              className="projectsBtn"
-              onClick={() => history.push("/projects")}
-            >
-              <strong>See Projects </strong>
-            </button>
+            <a href="#contactCmp">
+              <button
+                className="projectsBtn"
+                // onClick={() => history.push("/projects")}
+              >
+                <strong>Contact </strong>
+              </button>
+            </a>
           </div>
         </div>
         <AboutComponent />
