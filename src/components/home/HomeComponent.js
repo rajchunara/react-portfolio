@@ -4,6 +4,7 @@ import "./home.css";
 import AboutComponent from "../about/AboutComponent";
 import ProjectPageComponent from "../projectsPage/ProjectsPageComponent";
 import ContactComponent from "../contact/ContactComponent";
+import vanillaSmoothie from "vanilla-smoothie";
 
 export default function HomeComponent(props) {
   // const { history } = props;
@@ -37,15 +38,20 @@ export default function HomeComponent(props) {
             I am Toronto based software developer, who likes creating beautiful
             user interfaces and scalable applications
           </p>
-          <div className="home-btn-container">
-            <a href="#contactCmp">
-              <button
-                className="projectsBtn"
-                // onClick={() => history.push("/projects")}
-              >
-                <strong>Contact </strong>
-              </button>
+          <div
+            className="home-btn-container"
+            onClick={() => vanillaSmoothie.scrollTo("#projectCmp")}
+          >
+            <a className="my-work-button" href="#projectCmp">
+              <strong>View My Work</strong>
             </a>
+          </div>
+
+          <div
+            className="down-arrow"
+            onClick={() => vanillaSmoothie.scrollTo("#aboutCmp")}
+          >
+            <img src={`${process.env.PUBLIC_URL}/down-arrow.png`} alt="" />
           </div>
         </div>
         <AboutComponent />

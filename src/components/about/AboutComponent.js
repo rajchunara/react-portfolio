@@ -15,17 +15,17 @@ export default function AboutComponent() {
             data-aos-mirror="true"
           >
             <p className="about-info-1">
-              I enjoy the process of converting complex problems into simple yet
-              elegant real world applications. In addition, I gained experience
-              in the field of web development while working with the renowned
-              institutions like TD bank and FDM group. I always strive to write
-              clean, modularized and efficient code by maintaining industry
-              standards.
+              Software developer who enjoys the process of transfroming ideas
+              into simple yet elegant looking real world applications. In
+              addition, I've had chance to work with the renowned institutions
+              like TD bank and FDM group. I always strive to write clean,
+              modularized and efficient code by maintaining industry standards.
             </p>
 
             <p className="about-info-2">
-              Apart from coding, I like spending time on digital art, meditation
-              and improving vector graphics skills.
+              Apart from coding, I like spending time on digital art,
+              meditation, improving vector graphics skills and researching about
+              latest trends in web design.
             </p>
           </div>
         </div>

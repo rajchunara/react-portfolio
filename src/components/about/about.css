@@ -72,7 +72,7 @@
   left: 0;
   background: #e0b9b9;
   opacity: 0.71;
-  border-radius: 10px;
+  /* border-radius: 10px;  */
 }
 
 .about-info-1,
@@ -84,16 +84,15 @@
   color: #1e3c69;
   line-height: 120%;
   z-index: 1;
+  letter-spacing: 1px;
 }
 
 .about-info-1 {
-  width: 300px;
-  height: 200px;
+  width: 340px;
 }
 
 .about-info-2 {
-  width: 300px;
-  height: 100px;
+  width: 340px;
 }
 
 .fade-in {
