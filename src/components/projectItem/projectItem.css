@@ -1,3 +1,10 @@
+.project-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .project-item {
   display: flex;
   width: 280px;
@@ -43,21 +50,16 @@
   justify-content: space-around;
   height: 80px;
   width: 100%;
-  transform: translateY(-100px);
-  transition: transform 0.3s;
-}
-
-.project-item-details:hover > .item-btns-container {
-  transform: translateY(0px);
 }
 
 .code-btn,
 .site-btn {
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: #f1f1f1;
   border-style: none;
   height: 30px;
   width: 65px;
+  border: 2px solid rgb(82, 82, 82);
   border-radius: 15px;
   font-size: 15px;
   font-weight: 550;

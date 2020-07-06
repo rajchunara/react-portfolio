@@ -1,105 +1,116 @@
+export const Projects = [
+  {
+    id: 0,
+    title: "Superheroes App",
+    imageUrl: "/assets/Images/Project-Images/superheroes-react-app.JPG",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/superheroes-react-app",
+      siteUrl: "https://rajchunara.github.io/superheroes-react-app/",
+    },
+    showOnSite: true,
+    tags: ["React", "Redux", "Node", "Heroku", "Animation", "Superhero API"],
+  },
+  {
+    id: 1,
+    title: "React-Shopping-App",
+    imageUrl: "/assets/Images/Project-Images/React-Shopping-App.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/React-Shopping-App",
+      siteUrl: "https://rajchunara.github.io/React-Shopping-App/",
+    },
+    showOnSite: true,
+    tags: ["React", "Redux", "React-Router", "css"],
+  },
+  {
+    id: 2,
+    title: "Parallex-Website",
+    imageUrl: "/assets/Images/Project-Images/parallexwebsite.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/parallexwebsite",
+      siteUrl: "https://rajchunara.github.io/parallexwebsite/",
+    },
+    showOnSite: true,
+    tags: ["html", "css"],
+  },
+  {
+    id: 3,
+    title: "Angular-Pixabay",
+    imageUrl: "/assets/Images/Project-Images/angular-pixabay.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/angular-pixabay",
+      siteUrl: "https://rajchunara.github.io/angular-pixabay/",
+    },
+    showOnSite: true,
+    tags: ["Angular, Rxjs, html, css"],
+  },
+  {
+    id: 4,
+    title: "React-Redux-Posts-App",
+    imageUrl: "/assets/Images/Project-Images/react-redux-post-app.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/react-redux-posts-app",
+      siteUrl: "https://rajchunara.github.io/react-redux-posts-app/",
+    },
+    showOnSite: true,
+    tags: ["React", "Redux", "Api", "css"],
+  },
+  {
+    id: 5,
+    title: "Acme-Website",
+    imageUrl: "/assets/Images/Project-Images/Acme-Website.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/Acme-Website",
+      siteUrl: "https://rajchunara.github.io/Acme-Website/",
+    },
+    showOnSite: true,
+    tags: ["html", "css"],
+  },
+  {
+    id: 6,
+    title: "React-Pixabay",
+    imageUrl: "/assets/Images/Project-Images/ReactPixabay.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/ReactPixabay",
+      siteUrl: "https://rajchunara.github.io/ReactPixabay/",
+    },
+    showOnSite: false,
+    tags: [],
+  },
 
-export const Projects =[
-    {
-        id:0,
-        title:'Acme-Website',
-        imageUrl:'/assets/Images/Project-Images/Acme-Website.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/Acme-Website',
-            siteUrl:'https://rajchunara.github.io/Acme-Website/'
-        },
-        showOnSite:true,
-        tags:[]
+  {
+    id: 7,
+    title: "React-Todo",
+    imageUrl: "/assets/Images/Project-Images/ReactToDo.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/ReactToDo",
+      siteUrl: "https://rajchunara.github.io/ReactToDo/",
     },
-    {
-        id:1,
-        title:'React-Shopping-App',
-        imageUrl:'/assets/Images/Project-Images/React-Shopping-App.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/React-Shopping-App',
-            siteUrl:'https://rajchunara.github.io/React-Shopping-App/'
-        },
-        showOnSite:true,
-        tags:[]
+    showOnSite: false,
+    tags: [],
+  },
+  {
+    id: 8,
+    title: "Portfolio",
+    imageUrl: "/assets/Images/Project-Images/Portfolio.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/Portfolio",
+      siteUrl: "https://rajchunara.github.io/Portfolio/",
     },
-    {
-        id:2,
-        title:'Parallex-Website',
-        imageUrl:'/assets/Images/Project-Images/parallexwebsite.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/parallexwebsite',
-            siteUrl:'https://rajchunara.github.io/parallexwebsite/'
-        },
-        showOnSite:true,
-        tags:[]
+    showOnSite: false,
+    tags: [],
+  },
+  {
+    id: 9,
+    title: "Create-Questionnaire",
+    imageUrl: "/assets/Images/Project-Images/create-questionnaire.png",
+    accessButtons: {
+      codeUrl: "https://github.com/rajchunara/create-questionnaire",
+      siteUrl: "https://rajchunara.github.io/create-questionnaire/",
     },
-    {
-        id:3,
-        title:'Angular-Pixabay',
-        imageUrl:'/assets/Images/Project-Images/angular-pixabay.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/angular-pixabay',
-            siteUrl:'https://rajchunara.github.io/angular-pixabay/'
-        },
-        showOnSite:true,
-        tags:[]
-    },
-    {
-        id:4,
-        title:'React-Redux-Posts-App',
-        imageUrl:'/assets/Images/Project-Images/react-redux-post-app.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/react-redux-posts-app',
-            siteUrl:'https://rajchunara.github.io/react-redux-posts-app/'
-        },
-        showOnSite:true,
-        tags:[]
-    },
-    {
-        id:5,
-        title:'React-Pixabay',
-        imageUrl:'/assets/Images/Project-Images/ReactPixabay.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/ReactPixabay',
-            siteUrl:'https://rajchunara.github.io/ReactPixabay/'
-        },
-        showOnSite:true,
-        tags:[]
-    },
-    {
-        id:6,
-        title:'React-Todo',
-        imageUrl:'/assets/Images/Project-Images/ReactToDo.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/ReactToDo',
-            siteUrl:'https://rajchunara.github.io/ReactToDo/'
-        },
-        showOnSite:false,
-        tags:[]
-    },
-    {
-        id:7,
-        title:'Portfolio',
-        imageUrl:'/assets/Images/Project-Images/Portfolio.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/Portfolio',
-            siteUrl:'https://rajchunara.github.io/Portfolio/'
-        },
-        showOnSite:false,
-        tags:[]
-    },
-    {
-        id:8,
-        title:'Create-Questionnaire',
-        imageUrl:'/assets/Images/Project-Images/create-questionnaire.png',
-        accessButtons:{
-            codeUrl:'https://github.com/rajchunara/create-questionnaire',
-            siteUrl:'https://rajchunara.github.io/create-questionnaire/'
-        },
-        showOnSite:false,
-        tags:[]
-    }
-]
+    showOnSite: false,
+    tags: [],
+  },
+];
 
 // var projectItem={
 //     id:0,
@@ -112,7 +123,6 @@ export const Projects =[
 //     showOnSite:true,
 //     tags:[]
 // }
-
 
 // https://github.com/rajchunara/parallexwebsite
 // https://rajchunara.github.io/parallexwebsite/
