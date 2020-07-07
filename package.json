@@ -15,7 +15,7 @@
     "typewriter-effect": "^2.13.1",
     "vanilla-smoothie": "^2.2.4"
   },
-  "homepage": "https://rajchunara.github.io/react-portfolio",
+  "homepage": "https://rajchunara.dev",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
