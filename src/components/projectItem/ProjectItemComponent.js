@@ -1,5 +1,5 @@
-import React from "react";
-import "./projectItem.css";
+import React from 'react';
+import './projectItem.css';
 
 export default function ProjectItemComponent({ project, animationDelay }) {
   return (
@@ -24,18 +24,26 @@ export default function ProjectItemComponent({ project, animationDelay }) {
         </div>
       </div>
       <div className="item-btns-container">
-        <button
-          onClick={() => window.open(project.accessButtons.codeUrl)}
-          className="code-btn"
-        >
-          code
-        </button>
-        <button
-          onClick={() => window.open(project.accessButtons.siteUrl)}
-          className="site-btn"
-        >
-          visit
-        </button>
+        {/* render button only if property is defined */}
+        {project.accessButtons.codeUrl && (
+          <button
+            onClick={() => window.open(project.accessButtons.codeUrl)}
+            className="code-btn"
+          >
+            code
+          </button>
+        )}
+
+        {/* render button only if property is defined */}
+
+        {project.accessButtons.siteUrl && (
+          <button
+            onClick={() => window.open(project.accessButtons.siteUrl)}
+            className="site-btn"
+          >
+            visit
+          </button>
+        )}
       </div>
     </div>
   );
